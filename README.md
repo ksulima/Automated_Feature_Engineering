@@ -6,4 +6,5 @@ It is defined in Kaggle competition [Home Credit Default Risk](https://www.kaggl
 1. Feature engineering - generate features definitions in a automated way with an open-source library [Featuretools](https://www.featuretools.com/). 
 2. Computation - partiotioning of data and computation with [Dask](http://dask.pydata.org/en/latest/docs.html)
 3. Feature selection
-4. Hyperparameters optimalization with RandomizedSearchCV.
+4. Hyperparameters optimalization with random search.
+5. Hyperparameters tunning.
