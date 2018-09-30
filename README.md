@@ -12,7 +12,7 @@ It includes 7 relational tables, some of them with over 13 mln rows or 120 colum
 More information about dataset can be found [here](https://www.kaggle.com/c/home-credit-default-risk). 
 
 ### Steps:
-- EDA - general look at data to explore basic information about dataset.
+- [EDA](Automated_Feature_Engineering/blob/master/notebooks/EDA.ipynb) - general look at data to explore basic information about dataset.
 - Feature engineering - generate features definitions in a automated way with an open-source library [Featuretools](https://www.featuretools.com/). 
 - Computation - partiotioning of data and computation with [Dask](http://dask.pydata.org/en/latest/docs.html)
 - Feature selection
