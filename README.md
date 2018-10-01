@@ -18,3 +18,10 @@ More information about dataset can be found [here](https://www.kaggle.com/c/home
 - Feature selection `feature_selection.ipynb`
 - Hyperparameters optimalization for xgboost model with random search. `xgb_random_search.ipynb`
 - Hyperparameters tunning and evaluation. `xqb_params_optimalization.ipynb`
+
+## Summary
+
+
+![](../images/fit_time_test_score.png)
+
+
