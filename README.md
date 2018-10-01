@@ -30,5 +30,4 @@ In addition I parallelized computations with Dask to speed up computation on my 
 
 
 <img src="/images/fit_time_test_score.png" width="550">
-
 <img src="/images/auc.png" width="550">
