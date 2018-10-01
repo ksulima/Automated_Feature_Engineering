@@ -19,9 +19,16 @@ More information about dataset can be found [here](https://www.kaggle.com/c/home
 - Hyperparameters optimalization for xgboost model with random search. `xgb_random_search.ipynb`
 - Hyperparameters tunning and evaluation. `xqb_params_optimalization.ipynb`
 
-## Summary
+## Conclusion
+
+Library Featuretools allowed me to handle data from seven relatonal tables and very efficiently create set of 1.8k features. I could much faster take next steps in project (i.e. feature selection, hyperparameter optimalization,tunning) and receive preliminary results.
+I haven't performed traditional manual feature engineering therefore I cannot directly compare two methods, but I estimate, that with this approach time to first evaluation shorten about 5x times. Although automated engineering probably will not completely eliminate necessity of manual time-consuming feature engineering, it let you quickly measure potential of some approach and start iterative process of building final solution.
+
+In addition I parallelized computations with Dask to speed up computation on my local computer.
 
 
-![](../images/fit_time_test_score.png)
 
 
+<img src="/images/fit_time_test_score.png" width="550">
+
+<img src="/images/auc.png" width="550">
